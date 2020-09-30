@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+}
+.app{
+  background-color: #fafafa;
+}
+.app_header {
+  position:sticky;/*this is used to make the header thing stick to the top when we scroll also*/
+  top:0;
+  z-index: 1;/*this is used to make the avatar not overlap */
+  background-color: white ;
+  padding: 20px;/*padding is going add space from insdie where as margin will add from outside */
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display:flex;
+  justify-content: space-between;
+}
+.app_signup
+{
+  display: flex;
+  flex-direction: column;
+}
+.app_headerImage{
+  object-fit: contain;
+}
+.app_posts{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.app_postsRight{
+  margin-left: 20px;
+}
+.text{
+  text-align: center;
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
